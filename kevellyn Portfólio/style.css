@@ -1,0 +1,146 @@
+/* Reset básico e estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #e21b7f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Container com limite de largura */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Seção de integrantes do grupo */
+.integrantes {
+    margin: 40px 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.membro {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.membro img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.membro .informacoes h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.membro .informacoes p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+/* Seção de link para contato */
+.contato-link {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+
+.contato-link a {
+    text-decoration: none;
+    color: #f036b2;
+    font-weight: bold;
+}
+
+.contato-link a:hover {
+    text-decoration: underline;
+}
+
+/* Formulário de Contato */
+.formulario-contato {
+    margin: 40px 0;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contato label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.formulario-contato input, 
+.formulario-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.formulario-contato button {
+    background-color: #ff62ab;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario-contato button:hover {
+    background-color: #f54da9;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+  
